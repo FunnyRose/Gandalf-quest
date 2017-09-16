@@ -1,0 +1,50 @@
+* { box-sizing: border-box; }
+
+.background {
+
+     background: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)), url("http://images.innoveduc.fr/integration_gandalf.png");
+     background-size: cover;
+     width: 500px;
+     height: 572px;
+     position: absolute;
+ }
+
+
+p span {
+    color: orange;
+    font-size: 55px;
+}
+
+ .text {
+     text-align: center;
+     background-color: pink;
+     border-radius:10px;
+     color: white;
+     font-size: 50px;
+     width: 80%;
+     height: 120px;
+     position: relative;
+     margin: auto;
+ }
+ 
+ .gandalf {
+     text-align: center;
+     color: white;
+     margin-top: 0px;
+     font-size: 90px;
+ }
+
+ .background:hover {
+     background: url("http://images.innoveduc.fr/integration_gandalf.png");
+ }
+
+.background:hover .text{
+    display: none;
+ }
+
+.background:hover .gandalf {
+    margin-top: 500px;
+    margin-bottom: 200px;
+    font-size: 50px;
+
+}
